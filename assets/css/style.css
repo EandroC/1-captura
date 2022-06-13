@@ -120,11 +120,6 @@ header{
     margin: 0 10px;
 }
 
-footer{
-    background-color: #999;
-    height: 300px; 
-}
-
 /********* SECTION INSTRUCTION *********/
 .instructions{
 
@@ -134,4 +129,48 @@ footer{
     margin: auto;
     max-width: 900px;
     padding: 70px 0;
+}
+
+.inst-item{
+    border-left: 3px solid #ECF0F3;
+    display: flex;
+}
+
+.inst-circle{
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    background-color: #0071B7;
+    margin: -9px;
+}
+
+.inst-text{
+    flex: 1;
+    margin-left: 50px;
+}
+
+.inst-text h2{
+    font-size: 32px;
+    color: #000;
+    margin: -20px 0 20px 0;
+}
+
+.inst-text p{
+    font-size: 16px;
+    line-height: 23px;
+    color: #777;
+    margin-bottom: 70px;
+}
+
+.inst-item:last-child{
+    border: 0;
+}
+
+.inst-item:last-child p{
+    margin: 0;
+}
+
+footer{
+    background-color: #999;
+    height: 300px; 
 }
