@@ -162,11 +162,11 @@ header{
     margin-bottom: 70px;
 }
 
-.inst-item:last-child{
+.inst-item:last-child {
     border: 0;
 }
 
-.inst-item:last-child p{
+.inst-item:last-child p {
     margin: 0;
 }
 
